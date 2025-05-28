@@ -1,0 +1,8 @@
+opencv-python-headless
+tqdm
+numpy
+mss 
+pyautogui
+beautifulsoup4
+requests
+insightface
