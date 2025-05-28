@@ -1,8 +1,8 @@
 import os
-import numpy as np
-import cv2
-from tqdm import tqdm
-from insightface.app import FaceAnalysis
+import numpy as np  # type: ignore
+import cv2  # type: ignore
+from tqdm import tqdm  # type: ignore
+from insightface.app import FaceAnalysis  # type: ignore
 
 # Init face detector + embedding model
 faceapp = FaceAnalysis(name="buffalo_l", providers=['CPUExecutionProvider'])

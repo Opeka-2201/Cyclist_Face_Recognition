@@ -5,6 +5,7 @@ import mss  # type: ignore
 import time
 import pyautogui  # type: ignore
 
+time.sleep(0.01)
 start = True
 translation = None
 
@@ -88,7 +89,7 @@ while True:
             "cursor on the quiz box)..."
         )
         start = False
-        time.sleep(2)
+        # time.sleep(2)
 
     # Screen capture
     sct_img = sct.grab(monitor)
@@ -123,8 +124,10 @@ while True:
                 2,
             )
 
-            pyautogui.typewrite(translate(name), interval=0.05)
-            pyautogui.press("enter")
+            pyautogui.press("command")
+            # Uncomment below to type the name in the quiz box
+            # pyautogui.typewrite(translate(name), interval=0.05)
+            # pyautogui.press("enter")
 
     # Show the image with detected faces
     cv2.imshow("Cyclist Recognition", img)
@@ -132,6 +135,6 @@ while True:
         break
 
     # Load limiter
-    time.sleep(0.1)
+    # time.sleep(0.1)
 
 cv2.destroyAllWindows()

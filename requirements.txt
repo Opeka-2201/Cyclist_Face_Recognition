@@ -1,4 +1,4 @@
-opencv-python-headless
+opencv-python
 tqdm
 numpy
 mss 
@@ -6,3 +6,4 @@ pyautogui
 beautifulsoup4
 requests
 insightface
+onnxruntime
