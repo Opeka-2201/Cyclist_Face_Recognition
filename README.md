@@ -1,10 +1,10 @@
-# Cyclist Face Recognition - Procyclingstats Photoquiz
+# Cyclist Face Recognition
 
 ![image](figure/recognition.png)
 
 This project first intended to automatically play the Photoquiz game on [ProCyclingStats](https://www.procyclingstats.com/quiz.php?s=photo-quiz) by identifying cyclists from their photos.
 
-It can be used for many other applications and is based on the FAISS and Insightface by crawling the pictures available on the Procyclingstats website.
+It can be used for other applications and is based on the FAISS and Insightface method trained by crawling the pictures available on the ProCyclingStats website.
 
 ## Prerequisites
 
@@ -33,7 +33,7 @@ python3 source/mugshot_crawler.py
 
 This will create a folder containing all the mugshots of cyclists in the `data/mugshots` directory.
 
-You then need to process these images to create a dataset before training the model. This can be done using the `file_prepreprocessing.py`script:
+You then need to process these images to create a dataset before training the embedding model. This can be done using the `file_prepreprocessing.py`script:
 
 ```bash
 python3 source/file_preprocessing.py
@@ -58,7 +58,3 @@ For that you need to specify to Open-CV where to look for cyclists, I recommend 
 ```bash
 python3 source/photoquiz.py
 ```
-
-## Other usage
-
-The script can also be used outside the quiz to identify cyclists from photos.
