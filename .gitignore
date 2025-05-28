@@ -1,0 +1,10 @@
+mugshots/
+test_images/
+venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# MacOS specific files
+.DS_Store
