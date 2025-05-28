@@ -80,7 +80,7 @@ faceapp.prepare(ctx_id=0)
 
 # Screen capture using mss (may need to allow access in macOS)
 sct = mss.mss()
-monitor = {"top": 0, "left": 0, "width": 720, "height": 900}  # Adjust
+monitor = {"top": 0, "left": 0, "width": 1000, "height": 900}  # Adjust
 
 while True:
     while start:

@@ -1,6 +1,10 @@
-# Procyclingstats Photoquiz
+# Cyclist Face Recognition - Procyclingstats Photoquiz
 
-This project automates playing the Photoquiz game on [ProCyclingStats](https://www.procyclingstats.com/quiz.php?s=photo-quiz) by identifying cyclists from their photos. 
+![image](figure/recognition.png)
+
+This project first intended to automatically play the Photoquiz game on [ProCyclingStats](https://www.procyclingstats.com/quiz.php?s=photo-quiz) by identifying cyclists from their photos.
+
+It can be used for many other applications and is based on the FAISS and Insightface by crawling the pictures available on the Procyclingstats website.
 
 ## Prerequisites
 
