@@ -1,5 +1,4 @@
-mugshots/
-test_images/
+data/
 venv/
 
 # Python cache files
